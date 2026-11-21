@@ -10,6 +10,12 @@
 > - **Reines Hobbyprojekt – frei nutzbar, änderbar & verbreitbar:** Dieses Projekt entsteht ausschließlich aus reinem Hobby und Interesse am gemeinsamen Funk-/SDR-Hobby. Es steht ausdrücklich frei zur Verfügung und darf frei genutzt, weiterverbreitet, verändert und verbessert werden.
 <!-- DNX-DISCLAIMER-END -->
 
+<!-- DNX-PREVIEW-START -->
+## Live-Vorschau
+
+![Live-Vorschau — DNX FT8 Beobachten](docs/preview.png)
+<!-- DNX-PREVIEW-END -->
+
 Ein Knopf in der DNX-Werkzeugreihe (**„DNX FT8: An" / „DNX FT8: Aus"**) und ein
 Fenster, in dem FT8-Rufzeichen festgehalten werden, damit man sie nicht aus den Augen
 verliert — **mit eigener Karte, Stationen-Verfolgung und FT8-Tabelle**.
