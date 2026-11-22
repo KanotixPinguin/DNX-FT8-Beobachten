@@ -35,7 +35,7 @@ verliert — **mit eigener Karte, Stationen-Verfolgung und FT8-Tabelle**.
   `Ortszeit` / `UTC` sitzt im Fensterkopf; welche Ortszeit gilt, wählt das Feld **Zeit:**
   neben dem QTH:
   - **QTH (auto)** – Zone wird aus dem eigenen Standort erkannt (einige Kästen in Europa;
-    JO31/Dorsten ergibt *Europe/Berlin*). Außerhalb davon gilt die Ortszeit des Browsers.
+    ein mitteleuropäisches Feld wie JN49 ergibt *Europe/Berlin*). Außerhalb davon gilt die Ortszeit des Browsers.
   - **Berlin MEZ/MESZ** – immer deutsche Zeit, Sommer/Winter automatisch
   - **Browser-Ortszeit** – Zone des eigenen Rechners
   - **UTC** – keine Umrechnung
@@ -44,8 +44,8 @@ verliert — **mit eigener Karte, Stationen-Verfolgung und FT8-Tabelle**.
   **Treffer grün hervorgehoben**. Beim Einschalten werden die zuletzt empfangenen Zeilen
   mitgenommen, ohne die Zähler zu verfälschen.
 - **Eigener Standort (QTH)**: wird aus der Empfänger-Konfiguration gelesen
-  (`receiver_gps`) und kann im Feld **QTH** überschrieben werden (Locator wie `JO31`
-  oder `51.65,6.97`); bleibt gespeichert. Ohne Angabe bleiben die km-Spalten leer.
+  (`receiver_gps`) und kann im Feld **QTH** überschrieben werden (Locator wie `JN49`
+  oder `50.11,8.68`); bleibt gespeichert. Ohne Angabe bleiben die km-Spalten leer.
 - **Merkliste** (`BEOBACHTEN:`): Rufzeichen per Eingabefeld + `+` oder über das kleine
   `+` hinter jedem Rufzeichen aufnehmen. Klick auf ein Chip nimmt es wieder herunter.
 - **Mitzählen**: jedes Chip zeigt `x7` und `vor 2 min` – wie oft und wann zuletzt gehört.
@@ -174,7 +174,7 @@ gesichert. `uninstall` nimmt den Loader heraus und löscht **beide** Dateien –
   `Ortszeit/UTC` kam nicht an, weil der Titelbalken den Zeiger beim Drücken einfing.
 - **v1.5.0**: Zeit umstellbar. Schalter **Ortszeit / UTC** im Fensterkopf und Auswahlfeld
   **Zeit:** (QTH auto, Berlin MEZ/MESZ, Browser-Ortszeit, UTC) neben dem QTH. Bei
-  **QTH (auto)** wird die Zone aus dem eigenen Standort erkannt — JO31 ergibt
+  **QTH (auto)** wird die Zone aus dem eigenen Standort erkannt — z. B. JN49 ergibt
   *Europe/Berlin*, also 17:00:45 UTC = 18:00:45 MEZ (im Sommer 19:00:45). Sommer-/Winterzeit
   rechnet das System. Auch die Zeit im Karten-Popup wird umgerechnet.
 - **v1.4.0**: Der Installer läuft jetzt auch **ohne Docker** — `PLUGINS=<pfad>` für
