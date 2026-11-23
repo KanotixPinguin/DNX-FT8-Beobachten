@@ -195,3 +195,12 @@ gesichert. `uninstall` nimmt den Loader heraus und löscht **beide** Dateien –
 
 Private, inoffizielle Hobby-Anpassung; kein offizielles OpenWebRX-/OpenWebRX+-Projekt.
 Nutzung auf eigene Gefahr; soweit gesetzlich zulässig keine Haftung. Vorher Backups erstellen.
+
+---
+
+## Verbindungen im DNX-Ökosystem
+
+![DNX Gesamtarchitektur & Verbindungen](docs/dnx-architektur-verbindungen.png)
+
+* **Verbindung zu `DNX-Styler` (`#dnx-master-tool-row`):** Das FT8-Modul integriert sich über `files/dnx_ft8_styler.js` optisch in das aktuelle `DNX-Styler`-Farbschema und erscheint in der gemeinsamen Werkzeugleiste.
+* **Verbindung zu `DNX-Receiver-Tool-Button-Bar` & `Account Control`:** Der Button nutzt die gemeinsame Werkzeugzeile (`FT8`); das Recht `other_tools` / `tune` aus `:8095/api/me` steuert die Rollenfreigabe.
